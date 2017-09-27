@@ -1,4 +1,7 @@
 class Stack:
+    """
+    Stack Class Documentation
+    """
     def __init__(self):
         self.items = []
 
@@ -16,3 +19,5 @@ class Stack:
 
     def size(self):
         return len(self.items)
+
+print('Stack.class')

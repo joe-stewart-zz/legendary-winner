@@ -1,5 +1,5 @@
 import unittest
-from Stack import Stack
+from stack import Stack
 
 class TestStack(unittest.TestCase):
 
@@ -25,4 +25,4 @@ class TestStack(unittest.TestCase):
         self.stack = None
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=2)
